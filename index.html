@@ -5,55 +5,55 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"  />
         <meta name="author" content="GPQJ"/>
-		<meta name="description" content="Generate secure random passwords with customizable options for symbols and numbers.">
-    	<link rel="stylesheet" href="passwordgen.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-		<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-		<meta name="theme-color" content="#45355F">
-		<link rel="manifest" href="icon/site.webmanifest">
+        <meta name="description" content="Generate secure random passwords with customizable options for symbols and numbers.">
+        <link rel="stylesheet" href="passwordgen.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <meta name="theme-color" content="#45355F">
+        <link rel="manifest" href="icon/site.webmanifest">
     </head>
     <body>
         <main>
             <header class="hero">
-		    <h1 class="title">Generate a </h1>
-		    <h2 class="title" id="emphasis">random password</h2>
-		    <p class="subtitle">Never use an insecure password again.</p>
-	    </header>
-			<section class="actions">
-				<div class="toggle">
-					<label class="toggle-description" for="use-symbols"> Use symbols </label>
-					<label class="switch">
-						<input type="checkbox" id="use-symbols" aria-label="Include symbols in password generation">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<div class="toggle">
-					<label class="toggle-description" for="use-numbers"> Use numbers </label>
-					<label class="switch">
-						<input type="checkbox" id="use-numbers" aria-label="Include numbers in password generation">
-						<span class="slider"></span>
-					</label>
-				</div>
-				<button class="generate-btn" id="generate-btn" aria-label="Generate 2 random passwords"> Generate passwords</button>
-			</section>
-			<hr class="line">
-			<section>
-				<div class="results">
-					<p class="output" id="output1" tabindex="0"></p>
-					<p class="output" id="output2" tabindex="0"></p>
-				</div>
-				<p class="copyText-msg"> Click or tap the password to copy it to your clipboard.</p>
-			</section>
+            <h1 class="title">Generate a </h1>
+            <h2 class="title" id="emphasis">random password</h2>
+            <p class="subtitle">Never use an insecure password again.</p>
+        </header>
+            <section class="actions">
+                <div class="toggle">
+                    <label class="toggle-description" for="use-symbols"> Use symbols </label>
+                    <label class="switch">
+                        <input type="checkbox" id="use-symbols" aria-label="Include symbols in password generation">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="toggle">
+                    <label class="toggle-description" for="use-numbers"> Use numbers </label>
+                    <label class="switch">
+                        <input type="checkbox" id="use-numbers" aria-label="Include numbers in password generation">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <button class="generate-btn" id="generate-btn" aria-label="Generate 2 random passwords"> Generate passwords</button>
+            </section>
+            <hr class="line">
+            <section>
+                <div class="results">
+                    <p class="output" id="output1" tabindex="0"></p>
+                    <p class="output" id="output2" tabindex="0"></p>
+                </div>
+                <p class="copyText-msg"> Click or tap the password to copy it to your clipboard.</p>
+            </section>
         </main>
         <footer class="gpqj-footer">
             <p class="signature">  
                 GPQJ ❀ 2024
             </p>
         </footer>
-		<script src="passwordgen.js"></script>
+        <script src="passwordgen.js"></script>
     </body>
 </html>
