@@ -9,7 +9,6 @@ let useSymbols = document.getElementById("use-symbols")
 let generateBtn = document.getElementById("generate-btn")
 
 generateBtn.addEventListener("click", generatepw)
-//"pw" signifies "password"
 
 function getRandom(character) {
 
@@ -17,6 +16,7 @@ function getRandom(character) {
 	return character[randomCharacter]
 }
 
+//"pw" signifies "password"
 function createpw() {
 	let password =""
 	let characterPool = letters
