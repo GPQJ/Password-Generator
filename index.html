@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title> Password Generator </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"  />
         <meta name="author" content="GPQJ"/>
@@ -15,6 +14,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
         <meta name="theme-color" content="#45355F">
         <link rel="manifest" href="icon/site.webmanifest">
+        <title> Password Generator </title>
     </head>
     <body>
         <main>
@@ -42,8 +42,8 @@
             <hr class="line">
             <section>
                 <div class="results">
-                    <p class="output" id="output1" tabindex="0"></p>
-                    <p class="output" id="output2" tabindex="0"></p>
+                    <p class="output" id="output1" tabindex="0" aria-live="polite"></p>
+                    <p class="output" id="output2" tabindex="0" aria-live="polite"></p>
                 </div>
                 <p class="copyText-msg"> Click or tap the password to copy it to your clipboard.</p>
             </section>
